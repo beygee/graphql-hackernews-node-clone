@@ -1,0 +1,9 @@
+# 사용할 Prisma API의 HTTP 엔드포인트
+#endpoint: ''
+endpoint: https://eu1.prisma.sh/byeonggyu-kim-d3e7c5/hackernews-node/dev
+
+datamodel: datamodel.prisma
+
+generate: 
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
